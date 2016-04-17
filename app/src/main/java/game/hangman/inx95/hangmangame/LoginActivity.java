@@ -25,7 +25,9 @@ import org.json.JSONObject;
 
 import game.hangman.inx95.hangmangame.Util.ViewUtil;
 
-
+/**
+ * Created by inx95 on 16-4-17.
+ */
 public class LoginActivity extends AppCompatActivity {
 
     private EditText mPlayerIdTv;
@@ -93,7 +95,7 @@ public class LoginActivity extends AppCompatActivity {
 
                         }
                         mShowTv.setText(errorInfo);
-                        ViewUtil.showDialog(LoginActivity.this,"异常",errorInfo);
+                        ViewUtil.showDialog(LoginActivity.this, "异常", errorInfo);
                         ViewUtil.showProgress(LoginActivity.this, false, mLoginFormView, mProgressView);
                     }
                 }

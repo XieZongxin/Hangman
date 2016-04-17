@@ -24,6 +24,9 @@ import game.hangman.inx95.hangmangame.Util.ViewUtil;
 import game.hangman.inx95.hangmangame.Util.NetWorkUtil;
 import game.hangman.inx95.hangmangame.Util.TextUtil;
 
+/**
+ * Created by inx95 on 16-4-17.
+ */
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     private RequestQueue mRequestQueue;

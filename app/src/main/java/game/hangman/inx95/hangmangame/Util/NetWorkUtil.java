@@ -27,7 +27,6 @@ public class NetWorkUtil {
 
     public static void doRequest(String url, @Nullable String playerId, @Nullable String action, @Nullable String sessionId, @Nullable String guess, RequestQueue queue, final SuccessRunnable successRunnable, final ErrorRunnable errorRunnable) throws JSONException {
 
-//        if (!ValidateUtil.isUrlLegal(url)) return;
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("playerId", playerId)
                 .put("action", action)
