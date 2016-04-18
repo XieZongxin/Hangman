@@ -89,9 +89,9 @@ public class LoginActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         String errorInfo = "error";
                         if (error instanceof TimeoutError) {
-                            errorInfo = "请求超时";
+                            errorInfo = "time out";
                         } else if (error instanceof AuthFailureError) {
-                            errorInfo = "验证错误,当前playerId不可用！";
+                            errorInfo = "playerId is not available";
 
                         }
                         mShowTv.setText(errorInfo);
